@@ -10,7 +10,7 @@ import Script from 'next/script';
 export default function Page() {
   return (
     <>
-      <Script src="/js/htmx.min.js" strategy="beforeInteractive" />
+      <Script src="/js/htmx.min.js" strategy="afterInteractive" />
       <main className="flex min-h-screen flex-col p-6">
         <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
           <AcmeLogo />
